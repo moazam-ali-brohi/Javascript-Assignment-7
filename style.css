@@ -2,20 +2,17 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     overflow: hidden;
     margin: 0;
-    
     box-sizing: border-box;
     height: 100vh;
-    
 }
 
-
 .main{
-    
-position: relative;
-top: 20px;
+    position: relative;
+    top: 20px;
     box-sizing: border-box;
     margin: 0px auto;
     width:392px;
@@ -24,44 +21,46 @@ top: 20px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.705);
     overflow: hidden;
 }
+
 .side{
     background-color: #fa1616;
     width: 20px;
-height: 100%;
-float: right;
+    height: 100%;
+    float: right;
 }
+
 .inputfield{
     margin: 10px auto;
     width: 89%;
     height: 210px;
     background-color: rgb(0, 0, 0);
-    
 }
+
 input{
     width: 100%;
     outline: none;
     border: none;
     color: white;
     background-color: black;
-    
 }
+
 #opr{
     height: 40%;
-font-size: 30px;
-color: grey;
+    font-size: 30px;
+    color: grey;
 }
+
 #result{
     font-size: 50px;
     height: 60%;
-    
 }
+
 .btnfield{
     padding-top:10px ;
     margin: 0 auto;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    
 }
 
 .btn{
@@ -72,41 +71,27 @@ color: grey;
     font-size: 25px;
     color: rgb(238, 238, 238);
     float:left;
-    
 }
 
 .btn:hover{
     background-color: rgb(58, 58, 58);
 }
+
 .btn:focus{
     outline: none;
     background-color: rgb(58, 58, 58);
 }
-/*#0075f6*/
+
 #equalBtn{
     background-color: #ff3333;
     border-right: 1px solid rgba(14, 14, 14, 0.479);
 }
-#perBtn{
+#perBtn, #clearBtn, #divideBtn, #cBtn{
     border-top: 1px solid rgba(255, 255, 255, 0.445);
     border-bottom: 1px solid rgba(255, 255, 255, 0.315);
     background-color:black;
 }
-#clearBtn{
-    border-top: 1px solid rgba(255, 255, 255, 0.445);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.315);
-    background-color:black;
-}
-#divideBtn{
-    border-top: 1px solid rgba(255, 255, 255, 0.445);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.315);
-    background-color:black;
-}
-#cBtn{
-    border-top: 1px solid rgba(255, 255, 255, 0.445);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.315);
-    background-color:black;
-}
+
 #cBtn:hover, #perBtn:hover, #clearBtn:hover, #divideBtn:hover{
     background-color: rgb(22, 22, 22);
 }

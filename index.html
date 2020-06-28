@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="app" href="app.js">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
 </head>
+
 <body>
-<div class="main">
-    
-    <div class="side">
-        
+    <div class="main">
+
+        <div class="side">
+
+        </div>
+        <div class="inputfield">
+            <input id="opr" type="text">
+            <input id="result" type="text">
+
+        </div>
+        <div class="btnfield">
+            <button id="cBtn" class="btn">C</button>
+            <button id="clearBtn" onclick="clearInput()" class="btn">CE</button>
+            <button id="perBtn" onclick="getInputv('%')" class="btn">%</button>
+            <button id="divideBtn" onclick="getInputv('/')" class="btn">÷</button>
+            <button id="sevenBtn" onclick="getInputv('7')" class="btn">7</button>
+            <button class="btn" onclick="getInputv('8')">8</button>
+            <button class="btn" onclick="getInputv('9')">9</button>
+            <button id="multBtn" onclick="getInputv('*')" class="btn">x</button>
+            <button class="btn" onclick="getInputv('4')">4</button>
+            <button class="btn" onclick="getInputv('5')">5</button>
+            <button class="btn" onclick="getInputv('6')">6</button>
+            <button id="plusBtn" onclick="getInputv('+')" class="btn">+</button>
+            <button class="btn" onclick="getInputv('1')">1</button>
+            <button class="btn" onclick="getInputv('2')">2</button>
+            <button class="btn" onclick="getInputv('3')">3</button>
+            <button id="minBtn" onclick="getInputv('-')" class="btn">-</button>
+            <button class="btn">+/-</button>
+            <button class="btn" onclick="getInputv('0')">0</button>
+            <button class="btn" onclick="getInputv('.')">.</button>
+            <button id="equalBtn" onclick="getInputResult()" class="btn">=</button>
+        </div>
     </div>
-    <div class="inputfield">
-      <input id="opr" type="text" name="" id="">
-      <input id="result" type="text" name="" id="">
-    
-    </div>
-    <div class="btnfield">
-        
-        
-        <button id="cBtn" class="btn">C</button>
-        <button id="clearBtn" class="btn">CE</button>
-        <button id="perBtn" class="btn">%</button>
-        <button id="divideBtn" class="btn">÷</button>
-        <button id="sevenBtn" class="btn">7</button>
-        <button class="btn">8</button>
-        <button class="btn">9</button>
-        <button id="multBtn" class="btn">x</button>
-        <button class="btn">4</button>
-        <button class="btn">5</button>
-        <button class="btn">6</button>
-        <button id="plusBtn" class="btn">+</button>
-        <button class="btn">1</button>
-        <button class="btn">2</button>
-        <button class="btn">3</button>
-        <button id="minBtn" class="btn">-</button>
-        <button  class="btn">+/-</button>
-        <button class="btn">0</button>
-        <button class="btn">.</button>
-        <button id="equalBtn" class="btn">=</button>
-    </div>
-</div>
+    <script src="app.js"></script>
 </body>
+
 </html>
